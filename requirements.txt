@@ -3,3 +3,5 @@ requests>=2.25.0
 Pillow>=8.0.0
 numpy>=1.19.0
 
+# urllib3 is automatically installed as a dependency of requests
+# and is required for the advanced retry mechanisms used in the image loading nodes

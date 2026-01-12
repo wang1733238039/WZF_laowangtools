@@ -1,0 +1,873 @@
+{
+  "id": "c6e410bc-5e2c-460b-ae81-c91b6094fbb1",
+  "revision": 0,
+  "last_node_id": 269,
+  "last_link_id": 459,
+  "nodes": [
+    {
+      "id": 265,
+      "type": "LoadImage",
+      "pos": [
+        -6090,
+        -4100
+      ],
+      "size": [
+        270,
+        314
+      ],
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            447
+          ]
+        },
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.67",
+        "Node name for S&R": "LoadImage"
+      },
+      "widgets_values": [
+        "piyi_768x1024.jpg",
+        "image"
+      ]
+    },
+    {
+      "id": 251,
+      "type": "LoadImage",
+      "pos": [
+        -5770,
+        -4120
+      ],
+      "size": [
+        270,
+        314
+      ],
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            448
+          ]
+        },
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.67",
+        "Node name for S&R": "LoadImage"
+      },
+      "widgets_values": [
+        "9.png",
+        "image"
+      ]
+    },
+    {
+      "id": 255,
+      "type": "ShowText|pysssss",
+      "pos": [
+        -4170,
+        -3270
+      ],
+      "size": [
+        140,
+        176
+      ],
+      "flags": {},
+      "order": 11,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "link": 432
+        }
+      ],
+      "outputs": [
+        {
+          "label": "字符串",
+          "name": "STRING",
+          "shape": 6,
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-custom-scripts",
+        "ver": "f2838ed5e59de4d73cde5c98354b87a8d3200190",
+        "Node name for S&R": "ShowText|pysssss"
+      },
+      "widgets_values": [
+        "22"
+      ]
+    },
+    {
+      "id": 264,
+      "type": "ImpactMakeImageList",
+      "pos": [
+        -5070,
+        -3730
+      ],
+      "size": [
+        140,
+        86
+      ],
+      "flags": {},
+      "order": 5,
+      "mode": 0,
+      "inputs": [
+        {
+          "label": "图像",
+          "name": "image1",
+          "shape": 7,
+          "type": "IMAGE",
+          "link": 447
+        },
+        {
+          "name": "image2",
+          "type": "IMAGE",
+          "link": 448
+        },
+        {
+          "name": "image3",
+          "type": "IMAGE",
+          "link": 449
+        },
+        {
+          "name": "image4",
+          "type": "IMAGE",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "label": "图像",
+          "name": "IMAGE",
+          "shape": 6,
+          "type": "IMAGE",
+          "links": [
+            443
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-impact-pack",
+        "ver": "2804f7944f125b1c10bc9d1fbb5a997a25a62726",
+        "Node name for S&R": "ImpactMakeImageList"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 250,
+      "type": "LoadImage",
+      "pos": [
+        -5720,
+        -2920
+      ],
+      "size": [
+        270,
+        314
+      ],
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            427
+          ]
+        },
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.67",
+        "Node name for S&R": "LoadImage"
+      },
+      "widgets_values": [
+        "2-1.png",
+        "image"
+      ]
+    },
+    {
+      "id": 236,
+      "type": "LoadImage",
+      "pos": [
+        -5420,
+        -2920
+      ],
+      "size": [
+        270,
+        314
+      ],
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            426
+          ]
+        },
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.67",
+        "Node name for S&R": "LoadImage"
+      },
+      "widgets_values": [
+        "6.jpg",
+        "image"
+      ]
+    },
+    {
+      "id": 266,
+      "type": "LoadImage",
+      "pos": [
+        -5470,
+        -4110
+      ],
+      "size": [
+        270,
+        314
+      ],
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            449
+          ]
+        },
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.67",
+        "Node name for S&R": "LoadImage"
+      },
+      "widgets_values": [
+        "990x1198_cetang.jpg",
+        "image"
+      ]
+    },
+    {
+      "id": 254,
+      "type": "ShowText|pysssss",
+      "pos": [
+        -4180,
+        -3490
+      ],
+      "size": [
+        140,
+        176
+      ],
+      "flags": {},
+      "order": 10,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "link": 431
+        }
+      ],
+      "outputs": [
+        {
+          "label": "字符串",
+          "name": "STRING",
+          "shape": 6,
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-custom-scripts",
+        "ver": "f2838ed5e59de4d73cde5c98354b87a8d3200190",
+        "Node name for S&R": "ShowText|pysssss"
+      },
+      "widgets_values": [
+        "22"
+      ]
+    },
+    {
+      "id": 252,
+      "type": "PreviewImage",
+      "pos": [
+        -4180,
+        -4180
+      ],
+      "size": [
+        510,
+        450
+      ],
+      "flags": {},
+      "order": 7,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 429
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.67",
+        "Node name for S&R": "PreviewImage"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 253,
+      "type": "PreviewImage",
+      "pos": [
+        -4050,
+        -2990
+      ],
+      "size": [
+        250,
+        246
+      ],
+      "flags": {},
+      "order": 8,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 452
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.67",
+        "Node name for S&R": "PreviewImage"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 269,
+      "type": "PreviewImage",
+      "pos": [
+        -3760,
+        -2990
+      ],
+      "size": [
+        250,
+        246
+      ],
+      "flags": {},
+      "order": 9,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 455
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.67",
+        "Node name for S&R": "PreviewImage"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 237,
+      "type": "LoadMultiImage",
+      "pos": [
+        -4840,
+        -3730
+      ],
+      "size": [
+        420,
+        610
+      ],
+      "flags": {},
+      "order": 6,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "imglist",
+          "shape": 7,
+          "type": "IMAGE",
+          "link": 443
+        },
+        {
+          "name": "image_0",
+          "shape": 7,
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_1",
+          "shape": 7,
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_2",
+          "shape": 7,
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_3",
+          "shape": 7,
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_4",
+          "shape": 7,
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_5",
+          "shape": 7,
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_6",
+          "shape": 7,
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_7",
+          "shape": 7,
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_8",
+          "shape": 7,
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_9",
+          "shape": 7,
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_10",
+          "shape": 7,
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_11",
+          "shape": 7,
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_12",
+          "shape": 7,
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_13",
+          "shape": 7,
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_14",
+          "shape": 7,
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_15",
+          "shape": 7,
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_16",
+          "shape": 7,
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_17",
+          "shape": 7,
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_18",
+          "shape": 7,
+          "type": "IMAGE",
+          "link": 427
+        },
+        {
+          "name": "image_19",
+          "shape": 7,
+          "type": "IMAGE",
+          "link": 426
+        }
+      ],
+      "outputs": [
+        {
+          "name": "图像列表",
+          "type": "IMAGE",
+          "links": [
+            429
+          ]
+        },
+        {
+          "name": "图像_0",
+          "type": "IMAGE",
+          "links": [
+            452
+          ]
+        },
+        {
+          "name": "图像_1",
+          "type": "IMAGE",
+          "links": null
+        },
+        {
+          "name": "图像_2",
+          "type": "IMAGE",
+          "links": null
+        },
+        {
+          "name": "图像_3",
+          "type": "IMAGE",
+          "links": []
+        },
+        {
+          "name": "图像_4",
+          "type": "IMAGE",
+          "links": null
+        },
+        {
+          "name": "图像_5",
+          "type": "IMAGE",
+          "links": null
+        },
+        {
+          "name": "图像_6",
+          "type": "IMAGE",
+          "links": []
+        },
+        {
+          "name": "图像_7",
+          "type": "IMAGE",
+          "links": []
+        },
+        {
+          "name": "图像_8",
+          "type": "IMAGE",
+          "links": null
+        },
+        {
+          "name": "图像_9",
+          "type": "IMAGE",
+          "links": null
+        },
+        {
+          "name": "图像_10",
+          "type": "IMAGE",
+          "links": null
+        },
+        {
+          "name": "图像_11",
+          "type": "IMAGE",
+          "links": null
+        },
+        {
+          "name": "图像_12",
+          "type": "IMAGE",
+          "links": null
+        },
+        {
+          "name": "图像_13",
+          "type": "IMAGE",
+          "links": null
+        },
+        {
+          "name": "图像_14",
+          "type": "IMAGE",
+          "links": null
+        },
+        {
+          "name": "图像_15",
+          "type": "IMAGE",
+          "links": null
+        },
+        {
+          "name": "图像_16",
+          "type": "IMAGE",
+          "links": null
+        },
+        {
+          "name": "图像_17",
+          "type": "IMAGE",
+          "links": null
+        },
+        {
+          "name": "图像_18",
+          "type": "IMAGE",
+          "links": null
+        },
+        {
+          "name": "图像_19",
+          "type": "IMAGE",
+          "links": [
+            455
+          ]
+        },
+        {
+          "name": "输入端图像总数量",
+          "type": "STRING",
+          "links": [
+            431
+          ]
+        },
+        {
+          "name": "输出端图像总数量",
+          "type": "STRING",
+          "links": [
+            432
+          ]
+        },
+        {
+          "name": "加载报告",
+          "type": "STRING",
+          "links": [
+            433
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LoadMultiImage"
+      },
+      "widgets_values": [
+        "https://pinchuai.oss-cn-hangzhou.aliyuncs.com/2025-12-22/676a525cc1fd8f467c2fa2f4/upload/20251222200919812-693f2cc43d0b450e500-fufliz.png\nhttps://pinchuai.oss-cn-hangzhou.aliyuncs.com/2025-12-22/676a525cc1fd8f467c2fa2f4/upload/20251222201215306-r2gh93.png"
+      ]
+    },
+    {
+      "id": 256,
+      "type": "ShowText|pysssss",
+      "pos": [
+        -4230,
+        -2570
+      ],
+      "size": [
+        680,
+        770
+      ],
+      "flags": {},
+      "order": 12,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "link": 433
+        }
+      ],
+      "outputs": [
+        {
+          "label": "字符串",
+          "name": "STRING",
+          "shape": 6,
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-custom-scripts",
+        "ver": "f2838ed5e59de4d73cde5c98354b87a8d3200190",
+        "Node name for S&R": "ShowText|pysssss"
+      },
+      "widgets_values": [
+        "COMBINED_TEXT: https://pinchuai.oss-cn-hangzhou.aliyuncs.com/2025-12-22/676a525cc1fd8f467c2fa2f4/upload/20251222200919812-693f2cc43d0b450e500-fufliz.png\\nhttps://pinchuai.oss-cn-hangzhou.aliyuncs.com/2025-12-22/676a525cc1fd8f467c2fa2f4/upload/20251222201215306-r2gh93.png\nPARSED_URLS: ['https://pinchuai.oss-cn-hangzhou.aliyuncs.com/2025-12-22/676a525cc1fd8f467c2fa2f4/upload/20251222200919812-693f2cc43d0b450e500-fufliz.png', 'https://pinchuai.oss-cn-hangzhou.aliyuncs.com/2025-12-22/676a525cc1fd8f467c2fa2f4/upload/20251222201215306-r2gh93.png']\nDIAG_imglist_len: 3\nDIAG_imglist_preview: ['Tensor(1, 1024, 768, 3)', 'Tensor(1, 1024, 768, 3)', 'Tensor(1, 1198, 900, 3)']\nDIAG_input_images_len: 17\nDIAG_input_preview: ['Tensor(1, 640, 472, 3)', 'Tensor(1, 640, 472, 3)', 'Tensor(1, 640, 472, 3)', 'Tensor(1, 640, 472, 3)', 'Tensor(1, 640, 472, 3)', 'Tensor(1, 640, 472, 3)', 'Tensor(1, 640, 472, 3)', 'Tensor(1, 640, 472, 3)', 'Tensor(1, 640, 472, 3)', 'Tensor(1, 640, 472, 3)']\nOK: https://pinchuai.oss-cn-hangzhou.aliyuncs.com/2025-12-22/676a525cc1fd8f467c2fa2f4/upload/20251222200919812-693f2cc43d0b450e500-fufliz.png (bytes=2150314)\nOK: https://pinchuai.oss-cn-hangzhou.aliyuncs.com/2025-12-22/676a525cc1fd8f467c2fa2f4/upload/20251222201215306-r2gh93.png (bytes=5698974)\nDIAG_merged_before_len: 22\nDIAG_merged_before_preview: ['Tensor(1, 1024, 768, 3)', 'Tensor(1, 1024, 768, 3)', 'Tensor(1, 1198, 900, 3)', 'Tensor(1, 640, 472, 3)', 'Tensor(1, 640, 472, 3)', 'Tensor(1, 640, 472, 3)', 'Tensor(1, 640, 472, 3)', 'Tensor(1, 640, 472, 3)', 'Tensor(1, 640, 472, 3)', 'Tensor(1, 640, 472, 3)', 'Tensor(1, 640, 472, 3)', 'Tensor(1, 640, 472, 3)', 'Tensor(1, 640, 472, 3)', 'Tensor(1, 640, 472, 3)', 'Tensor(1, 640, 472, 3)', 'Tensor(1, 640, 472, 3)', 'Tensor(1, 640, 472, 3)', 'Tensor(1, 640, 472, 3)', 'Tensor(1, 1024, 632, 3)', 'Tensor(1, 1000, 750, 3)']\nDIAG_merged_len: 22\nDIAG_merged_preview: ['Tensor(1, 1024, 768, 3)', 'Tensor(1, 1024, 768, 3)', 'Tensor(1, 1198, 900, 3)', 'Tensor(1, 640, 472, 3)', 'Tensor(1, 640, 472, 3)', 'Tensor(1, 640, 472, 3)', 'Tensor(1, 640, 472, 3)', 'Tensor(1, 640, 472, 3)', 'Tensor(1, 640, 472, 3)', 'Tensor(1, 640, 472, 3)', 'Tensor(1, 640, 472, 3)', 'Tensor(1, 640, 472, 3)', 'Tensor(1, 640, 472, 3)', 'Tensor(1, 640, 472, 3)', 'Tensor(1, 640, 472, 3)', 'Tensor(1, 640, 472, 3)', 'Tensor(1, 640, 472, 3)', 'Tensor(1, 640, 472, 3)', 'Tensor(1, 1024, 632, 3)', 'Tensor(1, 1000, 750, 3)']\nDIAG_merged_unique_count: 22\nDIAG_merged_duplicates: {}\nDIAG_final_image_list_shapes: ['idx0:(1024, 768, 3),float32,min=0.0,max=1.0', 'idx1:(1024, 768, 3),float32,min=0.0,max=1.0', 'idx2:(1198, 900, 3),float32,min=0.0,max=1.0', 'idx3:(640, 472, 3),float32,min=0.0,max=1.0', 'idx4:(640, 472, 3),float32,min=0.0,max=1.0', 'idx5:(640, 472, 3),float32,min=0.0,max=1.0', 'idx6:(640, 472, 3),float32,min=0.0,max=1.0', 'idx7:(640, 472, 3),float32,min=0.0,max=1.0', 'idx8:(640, 472, 3),float32,min=0.0,max=1.0', 'idx9:(640, 472, 3),float32,min=0.0,max=1.0', 'idx10:(640, 472, 3),float32,min=0.0,max=1.0', 'idx11:(640, 472, 3),float32,min=0.0,max=1.0', 'idx12:(640, 472, 3),float32,min=0.0,max=1.0', 'idx13:(640, 472, 3),float32,min=0.0,max=1.0', 'idx14:(640, 472, 3),float32,min=0.0,max=1.0', 'idx15:(640, 472, 3),float32,min=0.0,max=1.0', 'idx16:(640, 472, 3),float32,min=0.0,max=1.0', 'idx17:(640, 472, 3),float32,min=0.0,max=1.0', 'idx18:(1024, 632, 3),float32,min=0.0,max=0.9803921580314636', 'idx19:(1000, 750, 3),float32,min=0.0,max=1.0', 'idx20:(4032, 3024, 3),float32,min=0.0,max=1.0', 'idx21:(2364, 1773, 3),float32,min=0.0,max=1.0']\nDIAG_final_slot_shapes: ['slot0:(1, 1024, 768, 3),float32,min=0.0,max=1.0', 'slot1:(1, 1024, 768, 3),float32,min=0.0,max=1.0', 'slot2:(1, 1198, 900, 3),float32,min=0.0,max=1.0', 'slot3:(1, 640, 472, 3),float32,min=0.0,max=1.0', 'slot4:(1, 640, 472, 3),float32,min=0.0,max=1.0', 'slot5:(1, 640, 472, 3),float32,min=0.0,max=1.0', 'slot6:(1, 640, 472, 3),float32,min=0.0,max=1.0', 'slot7:(1, 640, 472, 3),float32,min=0.0,max=1.0', 'slot8:(1, 640, 472, 3),float32,min=0.0,max=1.0', 'slot9:(1, 640, 472, 3),float32,min=0.0,max=1.0', 'slot10:(1, 640, 472, 3),float32,min=0.0,max=1.0', 'slot11:(1, 640, 472, 3),float32,min=0.0,max=1.0', 'slot12:(1, 640, 472, 3),float32,min=0.0,max=1.0', 'slot13:(1, 640, 472, 3),float32,min=0.0,max=1.0', 'slot14:(1, 640, 472, 3),float32,min=0.0,max=1.0', 'slot15:(1, 640, 472, 3),float32,min=0.0,max=1.0', 'slot16:(1, 640, 472, 3),float32,min=0.0,max=1.0', 'slot17:(1, 640, 472, 3),float32,min=0.0,max=1.0', 'slot18:(1, 1024, 632, 3),float32,min=0.0,max=0.9803921580314636', 'slot19:(1, 1000, 750, 3),float32,min=0.0,max=1.0']"
+      ]
+    }
+  ],
+  "links": [
+    [
+      426,
+      236,
+      0,
+      237,
+      20,
+      "IMAGE"
+    ],
+    [
+      427,
+      250,
+      0,
+      237,
+      19,
+      "IMAGE"
+    ],
+    [
+      429,
+      237,
+      0,
+      252,
+      0,
+      "IMAGE"
+    ],
+    [
+      431,
+      237,
+      21,
+      254,
+      0,
+      "STRING"
+    ],
+    [
+      432,
+      237,
+      22,
+      255,
+      0,
+      "STRING"
+    ],
+    [
+      433,
+      237,
+      23,
+      256,
+      0,
+      "STRING"
+    ],
+    [
+      443,
+      264,
+      0,
+      237,
+      0,
+      "IMAGE"
+    ],
+    [
+      447,
+      265,
+      0,
+      264,
+      0,
+      "IMAGE"
+    ],
+    [
+      448,
+      251,
+      0,
+      264,
+      1,
+      "IMAGE"
+    ],
+    [
+      449,
+      266,
+      0,
+      264,
+      2,
+      "IMAGE"
+    ],
+    [
+      452,
+      237,
+      1,
+      253,
+      0,
+      "IMAGE"
+    ],
+    [
+      455,
+      237,
+      20,
+      269,
+      0,
+      "IMAGE"
+    ]
+  ],
+  "groups": [],
+  "config": {},
+  "extra": {
+    "ds": {
+      "scale": 0.5209868481924513,
+      "offset": [
+        6352.9518984638125,
+        4647.431872675337
+      ]
+    },
+    "frontendVersion": "1.28.8",
+    "VHS_KeepIntermediate": true,
+    "links_added_by_ue": [],
+    "VHS_MetadataImage": true,
+    "ue_links": [],
+    "0246.VERSION": [
+      0,
+      0,
+      4
+    ],
+    "VHS_latentpreviewrate": 0,
+    "VHS_latentpreview": false,
+    "node_versions": {
+      "ComfyUI-WanVideoWrapper": "5a2383621a05825d0d0437781afcb8552d9590fd",
+      "ComfyUI-VideoHelperSuite": "0a75c7958fe320efcb052f1d9f8451fd20c730a8",
+      "comfy-core": "0.3.26"
+    }
+  },
+  "version": 0.4
+}
